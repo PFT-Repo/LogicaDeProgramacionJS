@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+
+<body>
+    <script>
+        function esImpar(number) {
+            return number % 2 != 0;
+        }
+
+        function yoQueSeTio(numero1, numero2) {
+            if (typeof (numero1) == 'number' && typeof (numero2) == 'number') {
+                if (numero1 >= 0 && numero2 >= 0 && numero1 < numero2) {
+                    //Logica
+                    let i = numero1;
+                    let contador = 0;
+                    while (i <= numero2) {
+                        if (esImpar(i)) {
+                            contador++;
+                        }
+                        i += 1;
+                    }
+                    return ` La cantidad de numeros impares es ${contador}`;
+                }
+                else {
+                    return ' Los numeros tienen que ser mayores o igual a 0';
+                }
+            }
+            else {
+                return 'No Te Pases de Listo';
+            }
+        }
+
+        let n1 = parseInt(prompt('Ingresa el numero 1'));
+        let n2 = parseInt(prompt('Ingresa el numero 2'));
+        alert(yoQueSeTio(n1, n2));
+    </script>
+</body>
+
+</html>

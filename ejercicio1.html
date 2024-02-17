@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+
+<body>
+    <script>
+        //Funcion sin parametro
+        // function onda() {
+        //     alert('Desde la funcion');
+        // }
+        //
+        //funcion con parametro
+        // function onda2(i) {
+        //     alert(`Desde la funcion ${i}`);
+        // }
+        //
+        //como llamar a las funciones
+        // nombreDeLaFuncion()
+        // nombreDeLaFuncion(parametro1,praram2...)
+
+        function tabla_de_multiplicar(carlitos) {
+            //NaN == No es un Numero
+            if (parseInt(carlitos) >= 1 && parseInt(carlitos) <= 9 && isNaN(carlitos) == false) {
+                //logica
+                console.log(`1 x ${carlitos} = ${carlitos * 1}`);
+                console.log(`2 x ${carlitos} = ${carlitos * 2}`);
+                console.log(`3 x ${carlitos} = ${carlitos * 3}`);
+                console.log(`4 x ${carlitos} = ${carlitos * 4}`);
+                console.log(`5 x ${carlitos} = ${carlitos * 5}`);
+                console.log(`6 x ${carlitos} = ${carlitos * 6}`);
+                console.log(`7 x ${carlitos} = ${carlitos * 7}`);
+                console.log(`8 x ${carlitos} = ${carlitos * 8}`);
+                console.log(`9 x ${carlitos} = ${carlitos * 9}`);
+                console.log(`10 x ${carlitos} = ${carlitos * 10}`);
+            } else {
+                alert('No te pases de listo');
+            }
+        }
+
+        let numero = parseInt(prompt('Ingresa un numero del 1 al 9'));
+        tabla_de_multiplicar(numero);
+    </script>
+</body>
+
+</html>

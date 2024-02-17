@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <script>
+
+        function porcentaje(porcentaje, total) {
+            //logica
+            if (porcentaje < 0 || typeof (porcentaje) != 'number') {
+                return ('porcentaje debe ser un numero positivo');
+            }
+            else if (total < 0 || typeof (total) != 'number') {
+                return ('Total debe ser un numero positivo');
+            }
+            else {
+                let resultado = (porcentaje * total) / 100;
+                return resultado
+            }
+        }
+
+        //llamado
+        alert(porcentaje(300, 900));
+
+    </script>
+</body>
+
+</html>
