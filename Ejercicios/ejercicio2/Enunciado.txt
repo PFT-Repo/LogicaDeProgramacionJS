@@ -1,0 +1,9 @@
+Hacer una funcion que devuelva el 'n' porciento de 'y' numero.
+
+Es decir:
+N = porcentaje que quiero obtener.
+Y = El numero del que quiero el porcentaje.
+
+Solo quiero emplear numeros positivos para 'N' e 'Y';
+
+Quiero el resultado en un Alert();

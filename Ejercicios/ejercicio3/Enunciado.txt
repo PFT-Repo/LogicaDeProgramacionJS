@@ -1,0 +1,9 @@
+Dados 2 numeros, devolver los numeros impares entre ellos
+
+Ambos numeros tienen que ser positivos y sin decimales.
+
+Quiero expresamente que utilices un bucle While para obtener el resultado.
+
+Deseo poder ingresar el rango de numeros a recorrer.
+
+Quiero el resultado en un Alert().
