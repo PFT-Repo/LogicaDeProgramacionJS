@@ -9,7 +9,7 @@ Clona el repo y con la extensión Live Server puedes mirarlos en tu navegador pr
 ## Autores
 
 - [@turpialCode](https://www.github.com/PFT-Repo)
-
+- [@alba](https://www.github.com/AlbaGraells)
 
 ## Licencia
 
